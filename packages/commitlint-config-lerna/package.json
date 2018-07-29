@@ -2,13 +2,16 @@
   "name": "@priver/commitlint-config-lerna",
   "version": "0.0.0",
   "description": "Shareable config for commitlint in moporepositories",
-  "engines": {
-    "node": ">=8"
-  },
   "main": "index.js",
   "files": [
     "index.js"
   ],
+  "engines": {
+    "node": ">=8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/priver/linters",
   "bugs": "https://github.com/priver/linters/issues",
   "repository": "https://github.com/priver/linters/tree/master/packages/commitlint-config-lerna",

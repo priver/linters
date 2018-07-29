@@ -2,7 +2,7 @@
 
 Shareable config for [commitlint]. For use in monorepositories managed by [lerna].
 
-[![license](https://img.shields.io/github/license/priver/linters.svg?style=flat-square)](https://github.com/priver/linters/blob/master/LICENSE.txt)
+[![license](https://img.shields.io/github/license/priver/linters.svg)](https://github.com/priver/linters/blob/master/LICENSE.txt)
 
 ## Installation
 
