@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "linters",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "commitmsg": "commitlint -e $GIT_PARAMS"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "husky": "^0.14.3",
+    "lerna": "^3.0.0-rc.0"
+  }
+}
