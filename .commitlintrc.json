@@ -1,5 +1,6 @@
 {
     "extends": [
-        "./packages/commitlint-config/index.js"
+        "./packages/commitlint-config/index.js",
+        "./packages/commitlint-config-lerna/index.js"
     ]
 }

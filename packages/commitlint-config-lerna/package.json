@@ -1,0 +1,36 @@
+{
+  "name": "@priver/commitlint-config-lerna",
+  "version": "0.0.0",
+  "description": "Shareable config for commitlint in moporepositories",
+  "engines": {
+    "node": ">=8"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/priver/linters",
+  "bugs": "https://github.com/priver/linters/issues",
+  "repository": "https://github.com/priver/linters/tree/master/packages/commitlint-config-lerna",
+  "keywords": [
+    "commitlint",
+    "commitlintconfig",
+    "config",
+    "priver",
+    "git",
+    "lerna",
+    "styleguide"
+  ],
+  "author": "Mikhail Priver <m.priver@gmail.com> (https://github.com/priver)",
+  "license": "MIT",
+  "dependencies": {
+    "@lerna/project": "^3.0.0-rc.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.0.0"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "lerna": "^3.0.0-rc.0"
+  }
+}
