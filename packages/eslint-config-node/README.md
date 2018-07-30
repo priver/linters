@@ -11,9 +11,9 @@ Shareable config for [`eslint-plugin-node`].
 Install the correct versions of each package, which are listed by the command:
 
 ```bash
-yarn add --dev eslint eslint-plugin-node @priver/eslint-config @priver/eslint-config-node
+yarn add --dev eslint eslint-plugin-import eslint-plugin-node @priver/eslint-config @priver/eslint-config-import @priver/eslint-config-node
 # or
-npm install --save-dev eslint eslint-plugin-node @priver/eslint-config @priver/eslint-config-node
+npm install --save-dev eslint eslint-plugin-import eslint-plugin-node @priver/eslint-config @priver/eslint-config-import @priver/eslint-config-node
 ```
 
 ## Usage
@@ -25,6 +25,7 @@ Add the following in your `.eslintrc.json`:
     "root": true,
     "extends": [
         "@priver/eslint-config",
+        "@priver/eslint-config-import",
         "@priver/eslint-config-node"
     ]
 }
