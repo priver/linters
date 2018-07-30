@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "eslint .",
     "test": "lerna run test",
-    "release": "lerna publish",
+    "release": "yarn test && lerna publish",
     "precommit": "lint-staged",
     "commitmsg": "commitlint -e $GIT_PARAMS"
   },
