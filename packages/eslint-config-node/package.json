@@ -1,6 +1,6 @@
 {
   "name": "@priver/eslint-config-node",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Shareable config for eslint-plugin-node",
   "main": "index.js",
   "files": [
