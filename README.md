@@ -9,3 +9,4 @@ Linter tools configurations.
 
 - [commitlint-config](packages/commitlint-config/README.md)
 - [commitlint-config-lerna](packages/commitlint-config-lerna/README.md)
+- [eslint-config](packages/eslint-config/README.md)
