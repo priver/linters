@@ -14,3 +14,4 @@ Linter tools configurations.
 - [eslint-config-node](packages/eslint-config-node/README.md)
 - [eslint-config-react](packages/eslint-config-react/README.md)
 - [tslint-config](packages/tslint-config/README.md)
+- [tslint-config-react](packages/tslint-config-react/README.md)
