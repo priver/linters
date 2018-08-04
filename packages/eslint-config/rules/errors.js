@@ -4,6 +4,7 @@ module.exports = {
     rules: {
         'for-direction': 'error',
         'getter-return': 'off',
+        'no-async-promise-executor': 'error',
         'no-await-in-loop': 'error',
         'no-compare-neg-zero': 'error',
         'no-cond-assign': ['error', 'always'],
@@ -30,6 +31,7 @@ module.exports = {
         'no-inner-declarations': 'error',
         'no-invalid-regexp': 'error',
         'no-irregular-whitespace': 'error',
+        'no-misleading-character-class': 'error',
         'no-obj-calls': 'error',
         'no-prototype-builtins': 'off',
         'no-regex-spaces': 'error',
@@ -39,6 +41,7 @@ module.exports = {
         'no-unreachable': 'error',
         'no-unsafe-finally': 'error',
         'no-unsafe-negation': 'error',
+        'require-atomic-updates': 'error',
         'use-isnan': 'error',
         'valid-jsdoc': 'off',
         'valid-typeof': ['error', { requireStringLiterals: true }],

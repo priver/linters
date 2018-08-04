@@ -93,6 +93,7 @@ module.exports = {
         'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
         'radix': 'off',
         'require-await': 'off',
+        'require-unicode-regexp': 'error',
         'vars-on-top': 'off',
         'wrap-iife': ['error', 'inside'],
         'yoda': 'error',
