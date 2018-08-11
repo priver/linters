@@ -27,7 +27,7 @@
   "author": "Mikhail Priver <m.priver@gmail.com> (https://github.com/priver)",
   "license": "MIT",
   "dependencies": {
-    "@lerna/project": "^3.0.0-rc.0"
+    "@lerna/project": "^3.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.0.0"
