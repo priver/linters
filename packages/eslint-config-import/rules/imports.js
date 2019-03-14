@@ -19,9 +19,9 @@ module.exports = {
         'import/no-cycle': 'off',
         'import/no-dynamic-require': 'error',
         'import/no-internal-modules': 'off',
+        'import/no-relative-parent-imports': 'off',
         'import/no-webpack-loader-syntax': 'error',
         'import/no-self-import': 'error',
-        'import/no-relative-parent-imports': 'error',
 
         // Helpful warnings
         'import/export': 'error',
@@ -59,6 +59,7 @@ module.exports = {
         'import/max-dependencies': 'off',
         'import/no-unassigned-import': 'off',
         'import/no-named-default': 'error',
+        'import/no-named-export': 'off',
         'import/no-default-export': 'off',
         'import/no-anonymous-default-export': 'off',
         'import/group-exports': 'off',

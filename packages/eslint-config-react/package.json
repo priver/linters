@@ -2,25 +2,6 @@
   "name": "@priver/eslint-config-react",
   "version": "1.1.0",
   "description": "Shareable config for eslint-plugin-react",
-  "main": "index.js",
-  "files": [
-    "rules",
-    "index.js"
-  ],
-  "engines": {
-    "node": ">=8"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "scripts": {
-    "unused": "eslint-find-rules --no-core --unused ./index.js",
-    "deprecated": "eslint-find-rules --no-core --deprecated ./index.js",
-    "test": "yarn unused && yarn deprecated"
-  },
-  "homepage": "https://github.com/priver/linters",
-  "bugs": "https://github.com/priver/linters/issues",
-  "repository": "https://github.com/priver/linters/tree/master/packages/eslint-config-react",
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -32,13 +13,32 @@
   ],
   "author": "Mikhail Priver <m.priver@gmail.com> (https://github.com/priver)",
   "license": "MIT",
+  "homepage": "https://github.com/priver/linters",
+  "bugs": "https://github.com/priver/linters/issues",
+  "repository": "https://github.com/priver/linters/tree/master/packages/eslint-config-react",
+  "engines": {
+    "node": ">=8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "files": [
+    "rules",
+    "index.js"
+  ],
+  "scripts": {
+    "unused": "eslint-find-rules --no-core --unused ./index.js",
+    "deprecated": "eslint-find-rules --no-core --deprecated ./index.js",
+    "test": "yarn unused && yarn deprecated"
+  },
   "devDependencies": {
-    "eslint": "^5.3.0",
+    "eslint": "^5.15.1",
     "eslint-find-rules": "^3.3.1",
-    "eslint-plugin-react": "^7.10.0"
+    "eslint-plugin-react": "^7.12.4"
   },
   "peerDependencies": {
-    "eslint": "^5.2.0",
-    "eslint-plugin-react": "^7.10.0"
+    "eslint": "^5.0.0",
+    "eslint-plugin-react": "^7.12.0"
   }
 }

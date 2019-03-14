@@ -2,6 +2,25 @@
   "name": "@priver/eslint-config",
   "version": "5.1.0",
   "description": "Shareable config for eslint",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "priver",
+    "javascript",
+    "styleguide"
+  ],
+  "license": "MIT",
+  "author": "Mikhail Priver <m.priver@gmail.com> (https://github.com/priver)",
+  "homepage": "https://github.com/priver/linters",
+  "repository": "https://github.com/priver/linters/tree/master/packages/eslint-config",
+  "bugs": "https://github.com/priver/linters/issues",
+  "engines": {
+    "node": ">=8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "files": [
     "rules",
@@ -12,33 +31,14 @@
     "deprecated": "eslint-find-rules --deprecated ./index.js",
     "test": "yarn unused && yarn deprecated"
   },
-  "engines": {
-    "node": ">=8"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "homepage": "https://github.com/priver/linters",
-  "bugs": "https://github.com/priver/linters/issues",
-  "repository": "https://github.com/priver/linters/tree/master/packages/eslint-config",
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "config",
-    "priver",
-    "javascript",
-    "styleguide"
-  ],
-  "author": "Mikhail Priver <m.priver@gmail.com> (https://github.com/priver)",
-  "license": "MIT",
   "dependencies": {
-    "eslint-restricted-globals": "^0.1.1"
+    "eslint-restricted-globals": "^0.2.0"
   },
   "devDependencies": {
-    "eslint": "^5.3.0",
+    "eslint": "^5.15.1",
     "eslint-find-rules": "^3.3.1"
   },
   "peerDependencies": {
-    "eslint": "^5.2.0"
+    "eslint": "^5.15.0"
   }
 }
