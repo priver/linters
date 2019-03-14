@@ -48,6 +48,7 @@ module.exports = {
         'ter-newline-after-var': false,
         'ter-no-mixed-spaces-and-tabs': false,
         'object-curly-spacing': [true, 'always'],
+        'ter-padded-blocks': [true, 'never'],
         'sort-imports': false,
         'space-in-parens': [true, 'never'],
         'ter-no-tabs': true,

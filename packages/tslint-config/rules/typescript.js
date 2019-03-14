@@ -3,6 +3,7 @@
 module.exports = {
     rules: {
         'adjacent-overload-signatures': true,
+        'ban-ts-ignore': false,
         'ban-types': [true,
             ['Object', 'Avoid using the `Object` type. Did you mean `object`?'],
             ['Function', 'Avoid using the `Function` type. Prefer a specific function type, like `() => void`.'],
@@ -34,19 +35,6 @@ module.exports = {
         'prefer-for-of': true,
         'promise-function-async': false,
         'typedef': false,
-        'typedef-whitespace': [true, {
-            'call-signature': 'nospace',
-            'index-signature': 'nospace',
-            'parameter': 'nospace',
-            'property-declaration': 'nospace',
-            'variable-declaration': 'nospace',
-        }, {
-            'call-signature': 'onespace',
-            'index-signature': 'onespace',
-            'parameter': 'onespace',
-            'property-declaration': 'onespace',
-            'variable-declaration': 'onespace',
-        }],
         'unified-signatures': true,
     },
 };

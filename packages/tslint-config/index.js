@@ -7,6 +7,7 @@ module.exports = {
         require.resolve('./rules/functionality'),
         require.resolve('./rules/maintainability'),
         require.resolve('./rules/style'),
+        require.resolve('./rules/format'),
         require.resolve('./rules/eslint'),
     ],
 };

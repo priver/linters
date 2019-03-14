@@ -1,5 +1,7 @@
 'use strict';
 
+const restrictedGlobals = require('eslint-restricted-globals');
+
 module.exports = {
     rules: {
         'await-promise': false,
@@ -7,6 +9,7 @@ module.exports = {
         'ban': false,
         'curly': true,
         'forin': true,
+        'function-constructor': true,
         'import-blacklist': false,
         'label-position': true,
         'no-arg': true,
@@ -31,7 +34,8 @@ module.exports = {
         'no-invalid-this': false,
         'no-misused-new': true,
         'no-null-keyword': false,
-        'no-object-literal-type-assertion': true,
+        'no-object-literal-type-assertion': [true, { 'allow-arguments': true }],
+        'no-restricted-globals': [true].concat(restrictedGlobals),
         'no-return-await': true,
         'no-shadowed-variable': true,
         'no-sparse-arrays': true,
@@ -39,6 +43,7 @@ module.exports = {
         'no-string-throw': true,
         'no-submodule-imports': true,
         'no-switch-case-fall-through': true,
+        'no-tautology-expression': true,
         'no-this-assignment': true,
         'no-unbound-method': false,
         'no-unnecessary-class': false,
@@ -52,10 +57,12 @@ module.exports = {
         'prefer-object-spread': true,
         'radix': false,
         'restrict-plus-operands': false,
+        'static-this': true,
         'strict-boolean-expressions': false,
         'strict-type-predicates': false,
         'switch-default': true,
         'triple-equals': [true, 'allow-null-check'],
+        'unnecessary-constructor': true,
         'use-default-type-parameter': false,
         'use-isnan': true,
     },
