@@ -1,29 +1,27 @@
 {
   "private": true,
   "name": "linters",
+  "repository": "https://github.com/priver/linters",
   "workspaces": [
     "packages/*"
   ],
-  "scripts": {
-    "lint": "eslint .",
-    "test": "lerna run test",
-    "release": "yarn test && lerna publish",
-    "precommit": "lint-staged",
-    "commitmsg": "commitlint -e $GIT_PARAMS"
-  },
   "engines": {
     "node": ">=8"
   },
-  "repository": "https://github.com/priver/linters",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "lerna run test",
+    "release": "yarn test && lerna publish"
+  },
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
     "eslint": "^5.3.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-react": "^7.10.0",
-    "husky": "^0.14.3",
-    "lerna": "^3.0.3",
-    "lint-staged": "^7.2.0",
+    "husky": "^1.3.1",
+    "lerna": "^3.13.1",
+    "lint-staged": "^8.1.5",
     "tslint": "^5.11.0",
     "typescript": "^2.9.2"
   }
