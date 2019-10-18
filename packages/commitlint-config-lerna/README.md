@@ -6,6 +6,10 @@ Shareable config for [commitlint]. For use in monorepositories managed by [lerna
 [![npm downloads](https://img.shields.io/npm/dm/@priver/commitlint-config-lerna.svg)](https://www.npmjs.com/package/@priver/commitlint-config-lerna)
 [![license](https://img.shields.io/github/license/priver/linters.svg)](https://github.com/priver/linters/blob/master/LICENSE.txt)
 
+## DEPRECATED
+
+You should use [config-lerna-scopes].
+
 ## Installation
 
 ```bash
@@ -29,3 +33,4 @@ Add the following in your `.commitlintrc.json`:
 
 [commitlint]: http://marionebl.github.io/commitlint/
 [lerna]: https://lernajs.io/
+[config-lerna-scopes]: https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-lerna-scopes
