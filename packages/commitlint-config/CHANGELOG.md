@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/priver/linters/tree/master/packages/commitlint-config/compare/@priver/commitlint-config@2.0.0...@priver/commitlint-config@2.0.1) (2019-10-18)
+
+**Note:** Version bump only for package @priver/commitlint-config
+
+
+
+
+
 # [2.0.0](https://github.com/priver/linters/tree/master/packages/commitlint-config/compare/@priver/commitlint-config@1.0.0...@priver/commitlint-config@2.0.0) (2019-03-14)
 
 
